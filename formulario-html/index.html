@@ -1,0 +1,83 @@
+<!doctype html>
+
+<head>
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario HTML</title>
+
+</head>
+
+<body class="background">
+
+    <div class="survey-box">
+        <h1 id="title"> Cabecera 1 </h1>
+        <p id="description"> Descripcion </p>
+
+        <form id="survey-form">
+            <div>
+                <label id="name-label" for="name">Nombre:</label>
+                <input type="text" id="name" placeholder="Tu nombre:" required />
+            </div>
+
+            <div>
+                <label id="email-label" for="email">Correo electronico:</label>
+                <input type="email" id="email" placeholder="Tu correo electronico:" required />
+            </div>
+
+            <div>
+                <label id="number-label" for="number">Edad</label>
+                <input type="number" name="age" id="number" min="8" max="150" placeholder="Tu edad:" />
+            </div>
+
+            <div>
+                <p>A</p>
+                <select id="dropdown" name="nombre" required>
+                    <option disabled selected value>Eleccion</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="E">E</option>
+                </select>
+            </div>
+
+            <div>
+                <p>A</p>
+                <label><input name="radiobutt" value="A" type="radio" checked />A</label>
+                <label><input name="radiobutt" value="B" type="radio" />B</label>
+
+                <p>B</p>
+                <label><input name="radiobutt-2" value="C" type="radio" />C</label>
+                <label><input name="radiobutt-2" value="D" type="radio" />D</label>
+            </div>
+
+            <div>
+                <p>What would you like to see improved?</p>
+
+                <label><input name="prefer" value="A" type="checkbox" />A</label>
+                <label><input name="prefer" value="B" type="checkbox" />B</label>
+                <label><input name="prefer" value="C" type="checkbox" />C</label>
+                <label><input name="prefer" value="D" type="checkbox" />D</label>
+                <label><input name="prefer" value="E" type="checkbox" />E</label>
+                <label><input name="prefer" value="F" type="checkbox" />F</label>
+                <label><input name="prefer" value="G" type="checkbox" />G</label>
+                <label><input name="prefer" value="H" type="checkbox" />H</label>
+            </div>
+
+            <div>
+                <p>Comentarios</p>
+                <textarea id="comments" class="input-textarea" name="comment" placeholder="Comentarios:"></textarea>
+            </div>
+
+            <div>
+                <button type="submit" id="submit" class="submit-button">Terminar</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
