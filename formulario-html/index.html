@@ -11,8 +11,10 @@
 <body class="background">
 
     <div class="survey-box">
-        <h1 id="title"> Cabecera 1 </h1>
-        <p id="description" class="descripcion"> Descripcion para probar de que, en caso de que sean dos lineas, podamos cortarlo a tiempo y sim problemas, ademas de quedarse dentro del div</p>
+        <h1 id="title"> Informacion sobre los colores pastel </h1>
+        <p id="description" class="descripcion"> Cuestionario sobre tus gustos, y sobre la supremacia obvia de los colores pastel</p>
+
+        <br/>
 
         <form id="survey-form">
             <div>
@@ -20,53 +22,68 @@
                 <input type="text" id="name" placeholder="Tu nombre:" required />
             </div>
 
+            <br>
+
             <div>
                 <label id="email-label" for="email">Correo electronico:</label>
                 <input type="email" id="email" placeholder="Tu correo electronico:" required />
             </div>
+
+            <br>
 
             <div>
                 <label id="number-label" for="number">Edad</label>
                 <input type="number" name="age" id="number" min="8" max="150" placeholder="Tu edad:" />
             </div>
 
+            <br>
+
             <div>
-                <label id="name-label" for="dropdown">A</label>
+                <label id="name-label" for="dropdown">Mejor color pastel</label>
                 <br>
                 <select id="dropdown" name="nombre" required>
-                    <option disabled selected value>Eleccion</option>
-                    <option value="A">A</option>
-                    <option value="B">B</option>
-                    <option value="C">C</option>
-                    <option value="D">D</option>
-                    <option value="E">E</option>
+                    <option disabled selected value>Elige sabiamente</option>
+                    <option value="A">Rosa</option>
+                    <option value="B">Azul</option>
+                    <option value="C">Amarillo</option>
+                    <option value="D">Beige</option>
+                    <option value="E">Verde</option>
                 </select>
             </div>
 
+            <br>
+
             <div>
-                <label id="name-label" for="radiobutt">A</label>
+                <label id="name-label" for="radiobutt">¿Perros o gatos?</label>
                 <br>
-                <label class="etiqueta-especial"><input name="radiobutt" value="A" type="radio" checked />A</label>
-                <label class="etiqueta-especial"><input name="radiobutt" value="B" type="radio" />B</label>
+                <label class="etiqueta-especial"><input name="radiobutt" value="A" type="radio" checked />Perros, obviamente</label>
+                <label class="etiqueta-especial"><input name="radiobutt" value="B" type="radio" />Gatos, obviamente</label>
 
                 <br>
-                <label id="name-label" for="radiobutt-2">B</label>
                 <br>
-                <label class="etiqueta-especial"><input name="radiobutt-2" value="C" type="radio" />C</label>
-                <label class="etiqueta-especial"><input name="radiobutt-2" value="D" type="radio" />D</label>
+                <label id="name-label" for="radiobutt-2">¿Pizza con o sin piña?</label>
+                <br>
+                <label class="etiqueta-especial"><input name="radiobutt-2" value="C" type="radio" />La pizza con piña es un crimen contra la humanidad</label>
+                <br>
+                <label class="etiqueta-especial"><input name="radiobutt-2" value="D" type="radio" />La pizza con piña es objetivamente mejor que las demas</label>
             </div>
 
+            <br>
+
             <div>
-                <label id="name-label" for="prefer">A</label>
+                <label id="name-label" for="prefer">Marca a los musicos que conozcas</label>
                 <br>
-                <label class="etiqueta-especial"><input name="prefer" value="A" type="checkbox" />A</label>
-                <label class="etiqueta-especial"><input name="prefer" value="B" type="checkbox" />B</label>
-                <label class="etiqueta-especial"><input name="prefer" value="C" type="checkbox" />C</label>
-                <label class="etiqueta-especial"><input name="prefer" value="D" type="checkbox" />D</label>
-                <label class="etiqueta-especial"><input name="prefer" value="E" type="checkbox" />E</label>
-                <label class="etiqueta-especial"><input name="prefer" value="F" type="checkbox" />F</label>
-                <label class="etiqueta-especial"><input name="prefer" value="G" type="checkbox" />G</label>
-                <label class="etiqueta-especial"><input name="prefer" value="H" type="checkbox" />H</label>
+                <label class="etiqueta-especial"><input name="prefer" value="A" type="checkbox" />Carpenter Brut</label>
+                <label class="etiqueta-especial"><input name="prefer" value="B" type="checkbox" />June</label>
+                <br/>
+                <label class="etiqueta-especial"><input name="prefer" value="C" type="checkbox" />Izal</label>
+                <label class="etiqueta-especial"><input name="prefer" value="D" type="checkbox" />Merk & Kremont</label>
+                <br/>
+                <label class="etiqueta-especial"><input name="prefer" value="E" type="checkbox" />Yas</label>
+                <label class="etiqueta-especial"><input name="prefer" value="F" type="checkbox" />House of Say</label>
+                <br/>
+                <label class="etiqueta-especial"><input name="prefer" value="G" type="checkbox" />I Dont Know How But They Found Me</label>
+                <label class="etiqueta-especial"><input name="prefer" value="H" type="checkbox" />half-alive </label>
             </div>
 
             <div>
